@@ -1,0 +1,49 @@
+
+h2{
+color: rgb(51, 255, 0);
+font-size: 50px;
+margin: 0px;
+background-color: blue;
+text-align: center;
+}
+h3{
+    text-align: center;
+    border-image-width: 200px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 80%;
+  }
+  .text-center{
+      text-align: center;
+      font-size: 30px;
+  }
+  .history{
+    /* align-content: center; */
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    width :85%;
+    margin: auto;
+    /* margin: auto; */
+
+
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: black;
+    width: 100%;
+    transition: .50s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
